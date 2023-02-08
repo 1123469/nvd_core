@@ -1,0 +1,109 @@
+
+<wv------------------------------------------------------------------------------------------->
+C:\Users\Lzh\miniconda3\envs\TF2.4\python.exe F:\PycharmProjects\NVDDemoProject\preprocess\stats_and_label_years.py
+F:\PycharmProjects\NVDDemoProject\preprocess
+34169
+[('CWE-79', 7857), ('CWE-787', 4493), ('CWE-89', 3060), ('CWE-125', 2067), ('NVD-CWE-Other', 1727), ('CWE-416', 1639), ('CWE-20', 1628), ('CWE-22', 1580), ('CWE-352', 1363), ('CWE-78', 1217), ('CWE-120', 1059), ('CWE-434', 980), ('CWE-269', 962), ('CWE-863', 958), ('CWE-862', 933), ('CWE-287', 920), ('CWE-476', 895), ('CWE-77', 831), ('CWE-276', 624), ('CWE-400', 623), ('CWE-190', 601), ('CWE-200', 586), ('CWE-502', 581), ('CWE-119', 532), ('CWE-668', 532), ('CWE-798', 530), ('CWE-918', 504), ('CWE-306', 454), ('CWE-732', 416), ('CWE-362', 410), ('CWE-522', 399), ('CWE-94', 381), ('CWE-74', 366), ('CWE-601', 357), ('CWE-611', 338), ('CWE-295', 337), ('CWE-401', 328), ('CWE-427', 325), ('CWE-770', 317), ('CWE-843', 263), ('CWE-617', 259), ('CWE-532', 259), ('CWE-59', 256), ('CWE-312', 252), ('CWE-319', 244), ('CWE-203', 239), ('CWE-639', 233), ('CWE-327', 208), ('CWE-755', 208), ('CWE-1321', 205), ('CWE-835', 180), ('CWE-347', 176), ('CWE-415', 168), ('CWE-209', 157), ('CWE-613', 156), ('CWE-908', 155), ('CWE-1021', 154), ('CWE-754', 151), ('CWE-307', 149), ('CWE-345', 146), ('CWE-121', 144), ('CWE-552', 143), ('CWE-122', 138), ('CWE-129', 137), ('CWE-367', 131), ('CWE-369', 131), ('CWE-444', 123), ('CWE-326', 122), ('CWE-330', 117), ('CWE-665', 115), ('CWE-1236', 107), ('CWE-290', 97), ('CWE-346', 94), ('CWE-824', 93), ('CWE-281', 91), ('CWE-384', 90), ('CWE-404', 87), ('CWE-674', 86), ('CWE-610', 83), ('CWE-88', 83), ('CWE-521', 81), ('CWE-428', 80), ('CWE-284', 79), ('CWE-116', 77), ('CWE-917', 74), ('CWE-426', 74), ('CWE-707', 73), ('CWE-191', 73), ('CWE-311', 72), ('CWE-667', 71), ('CWE-294', 70), ('CWE-922', 68), ('CWE-494', 66), ('CWE-131', 63), ('CWE-697', 62), ('CWE-1188', 60), ('CWE-252', 55), ('CWE-134', 55), ('CWE-829', 53), ('CWE-354', 51), ('CWE-425', 50), ('CWE-640', 49), ('CWE-459', 48), ('CWE-682', 47), ('CWE-772', 47), ('CWE-681', 41), ('CWE-909', 41), ('CWE-91', 38), ('CWE-763', 37), ('CWE-788', 36), ('CWE-916', 34), ('CWE-670', 32), ('CWE-662', 31), ('CWE-212', 29), ('CWE-436', 29), ('CWE-706', 29), ('CWE-338', 28), ('CWE-704', 27), ('CWE-193', 27), ('CWE-669', 26), ('CWE-913', 24), ('CWE-776', 23), ('CWE-1333', 21), ('CWE-693', 21), ('CWE-331', 20), ('CWE-285', 20), ('CWE-834', 20), ('CWE-565', 16), ('CWE-256', 15), ('CWE-266', 15), ('CWE-23', 13), ('CWE-377', 13), ('CWE-288', 13), ('CWE-822', 12), ('CWE-178', 12), ('CWE-672', 12), ('CWE-126', 12), ('CWE-80', 11), ('CWE-321', 11), ('CWE-250', 11), ('CWE-379', 10), ('CWE-335', 9), ('CWE-73', 9), ('CWE-264', 8), ('CWE-680', 8), ('CWE-789', 8), ('CWE-273', 8), ('CWE-359', 8), ('CWE-472', 7), ('CWE-924', 7), ('CWE-93', 7), ('CWE-61', 7), ('CWE-123', 7), ('CWE-170', 6), ('CWE-201', 6), ('CWE-489', 6), ('CWE-838', 6), ('CWE-1220', 6), ('CWE-457', 6), ('CWE-305', 6), ('CWE-799', 6), ('CWE-184', 5), ('CWE-912', 5), ('CWE-548', 5), ('CWE-322', 5), ('CWE-1284', 5), ('CWE-823', 5), ('CWE-248', 5), ('CWE-471', 4), ('CWE-840', 4), ('CWE-117', 4), ('CWE-940', 4), ('CWE-259', 4), ('CWE-297', 4), ('CWE-204', 3), ('CWE-208', 3), ('CWE-99', 3), ('CWE-497', 3), ('CWE-1336', 3), ('CWE-115', 3), ('CWE-620', 3), ('CWE-470', 3), ('CWE-749', 3), ('CWE-406', 3), ('CWE-648', 3), ('CWE-130', 3), ('CWE-805', 3), ('CWE-95', 3), ('CWE-124', 2), ('CWE-1287', 2), ('CWE-1022', 2), ('CWE-1286', 2), ('CWE-318', 2), ('CWE-453', 2), ('CWE-807', 2), ('CWE-350', 2), ('CWE-342', 2), ('CWE-202', 2), ('CWE-112', 2), ('CWE-214', 2), ('CWE-328', 2), ('CWE-708', 2), ('CWE-1241', 2), ('CWE-240', 2), ('CWE-302', 2), ('CWE-603', 2), ('CWE-538', 2), ('CWE-113', 2), ('CWE-1258', 2), ('CWE-657', 2), ('CWE-1274', 2), ('CWE-270', 2), ('CWE-353', 2), ('CWE-304', 2), ('CWE-385', 2), ('CWE-549', 2), ('CWE-277', 2), ('CWE-440', 2), ('CWE-349', 2), ('CWE-303', 2), ('CWE-279', 2), ('CWE-194', 2), ('CWE-757', 2), ('CWE-75', 2), ('CWE-644', 2), ('CWE-241', 2), ('CWE-280', 1), ('CWE-523', 1), ('CWE-315', 1), ('CWE-778', 1), ('CWE-507', 1), ('CWE-643', 1), ('CWE-506', 1), ('CWE-525', 1), ('CWE-1283', 1), ('CWE-1390', 1), ('CWE-527', 1), ('CWE-271', 1), ('CWE-323', 1), ('CWE-409', 1), ('CWE-524', 1), ('CWE-920', 1), ('CWE-597', 1), ('CWE-567', 1), ('CWE-257', 1), ('CWE-187', 1), ('CWE-299', 1), ('CWE-923', 1), ('CWE-300', 1), ('CWE-1329', 1), ('CWE-185', 1), ('CWE-267', 1), ('CWE-1288', 1), ('CWE-364', 1), ('CWE-602', 1), ('CWE-1026', 1), ('CWE-195', 1), ('CWE-15', 1), ('CWE-710', 1), ('CWE-590', 1), ('CWE-451', 1), ('CWE-1108', 1), ('CWE-378', 1), ('CWE-90', 1), ('CWE-456', 1), ('CWE-424', 1), ('CWE-760', 1), ('CWE-460', 1), ('CWE-64', 1), ('CWE-1076', 1), ('CWE-146', 1), ('CWE-539', 1), ('CWE-36', 1), ('CWE-228', 1), ('CWE-671', 1), ('CWE-98', 1), ('CWE-84', 1), ('CWE-1320', 1), ('CWE-441', 1), ('CWE-833', 1), ('CWE-690', 1), ('CWE-405', 1), ('CWE-27', 1), ('CWE-540', 1), ('CWE-242', 1), ('CWE-791', 1), ('CWE-324', 1), ('CWE-1282', 1), ('CWE-759', 1), ('CWE-274', 1), ('CWE-435', 1), ('CWE-911', 1), ('CWE-21', 1), ('CWE-141', 1), ('CWE-684', 1), ('CWE-598', 1), ('CWE-1278', 1), ('CWE-114', 1), ('CWE-334', 1), ('CWE-1004', 1), ('CWE-941', 1), ('CWE-475', 1), ('CWE-358', 1), ('CWE-229', 1), ('CWE-779', 1), ('CWE-24', 1), ('CWE-391', 1), ('CWE-455', 1), ('CWE-332', 1), ('CWE-29', 1), ('CWE-282', 1)]
+311
+{'CWE-20', 'CWE-434', 'CWE-79', 'CWE-77', 'CWE-862', 'NVD-CWE-Other', 'CWE-89', 'CWE-269', 'CWE-78', 'CWE-787', 'CWE-416', 'CWE-22', 'CWE-125', 'CWE-120', 'CWE-287', 'CWE-863', 'CWE-352', 'CWE-476'}
+18
+34169
+18
+
+cwe_min_count = 700
+infix+='_'+str(cwe_min_count)
+vec_len = 100
+min_count = 1
+window_len = 5
+dense_unit = 128
+wv_model_path  = '..//..//models//wv//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+
+Epoch 1/10
+2023-02-08 09:50:39.535991: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-02-08 09:50:39.578549: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2023-02-08 09:50:40.036078: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2023-02-08 09:50:40.039021: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2023-02-08 09:50:40.876542: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2023-02-08 09:50:40.913407: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2023-02-08 09:50:40.949819: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+855/855 [==============================] - 4s 3ms/step - loss: 2.2300 - accuracy: 0.3794
+Epoch 2/10
+855/855 [==============================] - 3s 3ms/step - loss: 1.3143 - accuracy: 0.5659
+Epoch 3/10
+855/855 [==============================] - 2s 3ms/step - loss: 1.1107 - accuracy: 0.6409
+Epoch 4/10
+855/855 [==============================] - 2s 3ms/step - loss: 1.0091 - accuracy: 0.6700
+Epoch 5/10
+855/855 [==============================] - 2s 3ms/step - loss: 0.9379 - accuracy: 0.6982
+Epoch 6/10
+855/855 [==============================] - 2s 3ms/step - loss: 0.8647 - accuracy: 0.7202
+Epoch 7/10
+855/855 [==============================] - 2s 3ms/step - loss: 0.8135 - accuracy: 0.7410
+Epoch 8/10
+855/855 [==============================] - 2s 3ms/step - loss: 0.7650 - accuracy: 0.7489
+Epoch 9/10
+855/855 [==============================] - 3s 3ms/step - loss: 0.7168 - accuracy: 0.7687
+Epoch 10/10
+855/855 [==============================] - 2s 3ms/step - loss: 0.6729 - accuracy: 0.7789
+214/214 [==============================] - 0s 2ms/step - loss: 0.7413 - accuracy: 0.7827
+last score: [0.7412536144256592, 0.7827041149139404]
+Model: "text_cnn"
+
+</wv------------------------------------------------------------------------------------------->
+
+<tfi-wv---------------------------------------------------------------------------------------->
+
+</tfi-wv----------------------------------------------------------------------------------------->
+
+<fast------------------------------------------------------------------------------------------->
+years = ['2020','2021']
+infix = ''
+infix = str(years[0])
+for i in range(1,len(years)):
+    infix += '-'+str(years[i])
+vec_len = 100
+min_count = 1
+window_len = 5
+dense_unit = 128
+fast_model_path  = '..//..//models//fasttext//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+cwe_count = 27  # 2020,2021
+
+        self.c1 = Conv2D(filters=12, kernel_size=(3, vec_len), padding='same')  # 卷积层
+        self.b1 = BatchNormalization()  # BN层
+        self.a1 = Activation('relu')  # 激活层
+        self.p1 = MaxPool2D(pool_size=(2, 2), strides=2, padding='same')  # 池化层
+        self.d1 = Dropout(0.2)  # dropout层
+
+        self.flatten = Flatten()
+        self.f1 = Dense(dense_unit, activation='relu')
+        self.d2 = Dropout(0.2)
+        self.f2 = Dense(cwe_count, activation='softmax')
+
+622/622 [==============================] - 5s 3ms/step - loss: 3.0541 - accuracy: 0.2423
+Epoch 2/10
+622/622 [==============================] - 2s 3ms/step - loss: 2.2190 - accuracy: 0.3388
+Epoch 3/10
+622/622 [==============================] - 2s 3ms/step - loss: 2.1174 - accuracy: 0.3543
+Epoch 4/10
+622/622 [==============================] - 2s 3ms/step - loss: 2.0563 - accuracy: 0.3641
+Epoch 5/10
+622/622 [==============================] - 2s 3ms/step - loss: 2.0205 - accuracy: 0.3712
+Epoch 6/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.9670 - accuracy: 0.3917
+Epoch 7/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.9114 - accuracy: 0.4033
+Epoch 8/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.8642 - accuracy: 0.4194
+Epoch 9/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.8340 - accuracy: 0.4253
+Epoch 10/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.8265 - accuracy: 0.4224
+156/156 [==============================] - 0s 2ms/step - loss: 1.6760 - accuracy: 0.4982
+last score: [1.6759649515151978, 0.49819132685661316]
+</fast------------------------------------------------------------------------------------------->

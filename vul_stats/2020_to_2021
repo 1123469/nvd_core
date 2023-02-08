@@ -1,0 +1,306 @@
+24880
+[('CWE-79', 5009), ('CWE-787', 2814), ('CWE-125', 1463), ('CWE-89', 1454), ('NVD-CWE-Other', 1267), ('CWE-20', 1158), ('CWE-416', 1008), ('CWE-22', 1002), ('CWE-78', 942), ('CWE-352', 807), ('CWE-120', 705), ('CWE-476', 658), ('CWE-434', 572), ('CWE-287', 558), ('CWE-862', 555), ('CWE-269', 552), ('CWE-863', 516), ('CWE-276', 469), ('CWE-77', 445), ('CWE-190', 419), ('CWE-502', 403), ('CWE-798', 365), ('CWE-200', 362), ('CWE-119', 359), ('CWE-306', 359), ('CWE-400', 340), ('CWE-918', 319), ('CWE-732', 286), ('CWE-522', 282), ('CWE-362', 257), ('CWE-295', 256), ('CWE-74', 254), ('CWE-668', 250), ('CWE-611', 242), ('CWE-601', 236), ('CWE-427', 236), ('CWE-401', 228), ('CWE-843', 223), ('CWE-94', 212), ('CWE-59', 196), ('CWE-319', 193), ('CWE-312', 188), ('CWE-770', 175), ('CWE-203', 174), ('CWE-532', 173), ('CWE-617', 168), ('CWE-327', 162), ('CWE-1321', 144), ('CWE-755', 138), ('CWE-835', 135), ('CWE-347', 134), ('CWE-908', 131), ('CWE-415', 128), ('CWE-639', 127), ('CWE-209', 125), ('CWE-129', 118), ('CWE-369', 114), ('CWE-1021', 113), ('CWE-613', 109), ('CWE-345', 101), ('CWE-754', 99), ('CWE-307', 97), ('CWE-444', 93), ('CWE-330', 85), ('CWE-121', 85), ('CWE-665', 83), ('CWE-326', 83), ('CWE-122', 75), ('CWE-552', 75), ('CWE-367', 75), ('CWE-917', 71), ('CWE-346', 71), ('CWE-281', 67), ('CWE-1236', 67), ('CWE-290', 62), ('CWE-674', 60), ('CWE-116', 59), ('CWE-824', 58), ('CWE-384', 57), ('CWE-191', 55), ('CWE-426', 55), ('CWE-404', 55), ('CWE-88', 54), ('CWE-610', 53), ('CWE-311', 52), ('CWE-667', 51), ('CWE-428', 50), ('CWE-922', 50), ('CWE-131', 48), ('CWE-494', 48), ('CWE-1188', 47), ('CWE-697', 44), ('CWE-521', 44), ('CWE-425', 39), ('CWE-294', 38), ('CWE-829', 37), ('CWE-788', 36), ('CWE-252', 35), ('CWE-640', 34), ('CWE-909', 34), ('CWE-681', 33), ('CWE-354', 33), ('CWE-459', 32), ('CWE-772', 29), ('CWE-134', 28), ('CWE-763', 27), ('CWE-682', 27), ('CWE-916', 25), ('CWE-91', 25), ('CWE-212', 24), ('CWE-670', 21), ('CWE-436', 20), ('CWE-662', 20), ('CWE-706', 20), ('CWE-193', 19), ('CWE-669', 19), ('CWE-834', 18), ('CWE-913', 17), ('CWE-776', 16), ('CWE-331', 16), ('CWE-704', 16), ('CWE-338', 16), ('CWE-178', 11), ('CWE-1333', 11), ('CWE-565', 10), ('CWE-284', 9), ('CWE-379', 9), ('CWE-321', 9), ('CWE-288', 9), ('CWE-693', 8), ('CWE-707', 8), ('CWE-377', 8), ('CWE-266', 8), ('CWE-822', 8), ('CWE-472', 7), ('CWE-335', 7), ('CWE-273', 7), ('CWE-123', 7), ('CWE-924', 6), ('CWE-672', 6), ('CWE-80', 6), ('CWE-250', 6), ('CWE-170', 6), ('CWE-73', 6), ('CWE-799', 6), ('CWE-457', 6), ('CWE-23', 6), ('CWE-680', 6), ('CWE-184', 5), ('CWE-201', 5), ('CWE-789', 5), ('CWE-548', 4), ('CWE-838', 4), ('CWE-912', 4), ('CWE-259', 4), ('CWE-61', 4), ('CWE-471', 4), ('CWE-489', 4), ('CWE-93', 3), ('CWE-497', 3), ('CWE-305', 3), ('CWE-285', 3), ('CWE-406', 3), ('CWE-1284', 3), ('CWE-749', 3), ('CWE-126', 3), ('CWE-349', 2), ('CWE-117', 2), ('CWE-115', 2), ('CWE-757', 2), ('CWE-353', 2), ('CWE-277', 2), ('CWE-248', 2), ('CWE-657', 2), ('CWE-359', 2), ('CWE-208', 2), ('CWE-807', 2), ('CWE-1241', 2), ('CWE-270', 2), ('CWE-385', 2), ('CWE-240', 2), ('CWE-805', 2), ('CWE-644', 2), ('CWE-214', 2), ('CWE-470', 2), ('CWE-297', 2), ('CWE-538', 2), ('CWE-113', 2), ('CWE-1286', 2), ('CWE-350', 2), ('CWE-342', 2), ('CWE-708', 2), ('CWE-202', 2), ('CWE-130', 2), ('CWE-299', 1), ('CWE-603', 1), ('CWE-15', 1), ('CWE-1329', 1), ('CWE-778', 1), ('CWE-456', 1), ('CWE-358', 1), ('CWE-527', 1), ('CWE-920', 1), ('CWE-315', 1), ('CWE-279', 1), ('CWE-540', 1), ('CWE-364', 1), ('CWE-1004', 1), ('CWE-435', 1), ('CWE-194', 1), ('CWE-620', 1), ('CWE-334', 1), ('CWE-257', 1), ('CWE-1076', 1), ('CWE-228', 1), ('CWE-539', 1), ('CWE-506', 1), ('CWE-710', 1), ('CWE-597', 1), ('CWE-507', 1), ('CWE-332', 1), ('CWE-124', 1), ('CWE-242', 1), ('CWE-567', 1), ('CWE-95', 1), ('CWE-1022', 1), ('CWE-643', 1), ('CWE-75', 1), ('CWE-112', 1), ('CWE-1336', 1), ('CWE-598', 1), ('CWE-90', 1), ('CWE-302', 1), ('CWE-267', 1), ('CWE-185', 1), ('CWE-525', 1), ('CWE-1287', 1), ('CWE-684', 1), ('CWE-36', 1), ('CWE-760', 1), ('CWE-405', 1), ('CWE-378', 1), ('CWE-441', 1), ('CWE-99', 1), ('CWE-114', 1), ('CWE-323', 1), ('CWE-303', 1), ('CWE-64', 1), ('CWE-1278', 1), ('CWE-271', 1), ('CWE-759', 1), ('CWE-590', 1), ('CWE-304', 1), ('CWE-195', 1)]
+254
+{'CWE-269', 'CWE-502', 'NVD-CWE-Other', 'CWE-863', 'CWE-79', 'CWE-190', 'CWE-200', 'CWE-125', 'CWE-22', 'CWE-434', 'CWE-20', 'CWE-77', 'CWE-400', 'CWE-276', 'CWE-287', 'CWE-476', 'CWE-862', 'CWE-416', 'CWE-918', 'CWE-787', 'CWE-78', 'CWE-119', 'CWE-120', 'CWE-798', 'CWE-89', 'CWE-306', 'CWE-352'}
+27
+24880
+27
+
+<wv------------------------------------------------------------------------------------------->
+years = ['2020','2021']
+vec_len = 100
+min_count = 1
+window_len = 5
+dense_unit = 128
+wv_model_path  = '..//..//models//wv//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+
+cwe_count = 27  # 2020,2021
+
+self.c1 = Conv2D(filters=12, kernel_size=(3, vec_len), padding='same')  # 卷积层
+        self.b1 = BatchNormalization()  # BN层
+        self.a1 = Activation('relu')  # 激活层
+        self.p1 = MaxPool2D(pool_size=(2, 2), strides=2, padding='same')  # 池化层
+        self.d1 = Dropout(0.2)  # dropout层
+
+        self.flatten = Flatten()
+        self.f1 = Dense(128, activation='relu')
+        self.d2 = Dropout(0.2)
+        self.f2 = Dense(cwe_count, activation='softmax')
+
+622/622 [==============================] - 4s 3ms/step - loss: 2.9467 - accuracy: 0.2648
+Epoch 2/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.8672 - accuracy: 0.4350
+Epoch 3/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.6532 - accuracy: 0.4890
+Epoch 4/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.5446 - accuracy: 0.5179
+Epoch 5/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.4826 - accuracy: 0.5277
+Epoch 6/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.4071 - accuracy: 0.5550
+Epoch 7/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.3578 - accuracy: 0.5712
+Epoch 8/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.3268 - accuracy: 0.5766
+Epoch 9/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.2957 - accuracy: 0.5833
+Epoch 10/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.2558 - accuracy: 0.5978
+156/156 [==============================] - 0s 2ms/step - loss: 1.2390 - accuracy: 0.6302
+last score: [1.2390263080596924, 0.6302250623703003]
+Model: "text_cnn"
+
+vec_len = 200
+min_count = 1
+window_len = 5
+dense_unit = 128
+wv_model_path  = '..//..//models//wv//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+cwe_count = 27  # 2020,2021
+
+622/622 [==============================] - 6s 6ms/step - loss: 3.6016 - accuracy: 0.2357
+2023-02-07 08:54:05.546705: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 955392000 exceeds 10% of free system memory.
+Epoch 2/10
+622/622 [==============================] - 4s 6ms/step - loss: 2.2526 - accuracy: 0.3382
+2023-02-07 08:54:09.604476: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 955392000 exceeds 10% of free system memory.
+Epoch 3/10
+622/622 [==============================] - 4s 6ms/step - loss: 2.1022 - accuracy: 0.3670
+2023-02-07 08:54:13.639181: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 955392000 exceeds 10% of free system memory.
+Epoch 4/10
+622/622 [==============================] - 4s 6ms/step - loss: 2.0101 - accuracy: 0.3857
+Epoch 5/10
+622/622 [==============================] - 4s 6ms/step - loss: 1.9023 - accuracy: 0.4094
+Epoch 6/10
+622/622 [==============================] - 4s 6ms/step - loss: 1.8369 - accuracy: 0.4230
+Epoch 7/10
+622/622 [==============================] - 4s 6ms/step - loss: 1.7819 - accuracy: 0.4361
+Epoch 8/10
+622/622 [==============================] - 4s 6ms/step - loss: 1.7194 - accuracy: 0.4530
+Epoch 9/10
+622/622 [==============================] - 4s 6ms/step - loss: 1.6919 - accuracy: 0.4575
+Epoch 10/10
+622/622 [==============================] - 4s 6ms/step - loss: 1.6477 - accuracy: 0.4708
+156/156 [==============================] - 1s 3ms/step - loss: 1.5097 - accuracy: 0.5334
+last score: [1.5096709728240967, 0.5333601236343384]
+Model: "text_cnn"
+
+vec_len = 300
+min_count = 1
+window_len = 5
+dense_unit = 128
+wv_model_path  = '..//..//models//wv//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+
+622/622 [==============================] - 9s 11ms/step - loss: 3.9595 - accuracy: 0.2442
+2023-02-07 09:00:28.343348: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1433088000 exceeds 10% of free system memory.
+Epoch 2/10
+622/622 [==============================] - 7s 11ms/step - loss: 2.2418 - accuracy: 0.3167
+2023-02-07 09:00:35.599534: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1433088000 exceeds 10% of free system memory.
+Epoch 3/10
+622/622 [==============================] - 7s 11ms/step - loss: 2.1703 - accuracy: 0.3288
+2023-02-07 09:00:42.948856: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1433088000 exceeds 10% of free system memory.
+Epoch 4/10
+622/622 [==============================] - 7s 11ms/step - loss: 2.1343 - accuracy: 0.3298
+Epoch 5/10
+622/622 [==============================] - 7s 11ms/step - loss: 2.0955 - accuracy: 0.3384
+Epoch 6/10
+622/622 [==============================] - 7s 11ms/step - loss: 2.0769 - accuracy: 0.3452
+Epoch 7/10
+622/622 [==============================] - 7s 11ms/step - loss: 2.0654 - accuracy: 0.3478
+Epoch 8/10
+622/622 [==============================] - 7s 11ms/step - loss: 2.0358 - accuracy: 0.3491
+Epoch 9/10
+622/622 [==============================] - 7s 11ms/step - loss: 2.0144 - accuracy: 0.3556
+Epoch 10/10
+622/622 [==============================] - 7s 11ms/step - loss: 1.9955 - accuracy: 0.3618
+156/156 [==============================] - 1s 5ms/step - loss: 1.7731 - accuracy: 0.4311
+last score: [1.7731486558914185, 0.43106913566589355]
+
+cwe_min_count = 500
+infix+='_'+str(cwe_min_count)
+vec_len = 300
+min_count = 1
+window_len = 5
+dense_unit = 128
+wv_model_path  = '..//..//models//wv//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+
+Epoch 1/10
+2023-02-08 08:51:16.203742: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-02-08 08:51:16.267434: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2023-02-08 08:51:17.264046: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2023-02-08 08:51:17.273568: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2023-02-08 08:51:18.807313: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2023-02-08 08:51:18.868871: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2023-02-08 08:51:18.952739: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+526/526 [==============================] - 9s 11ms/step - loss: 3.4627 - accuracy: 0.2649
+2023-02-08 08:51:25.127598: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1211904000 exceeds 10% of free system memory.
+Epoch 2/10
+526/526 [==============================] - 6s 11ms/step - loss: 2.1297 - accuracy: 0.3565
+2023-02-08 08:51:31.240707: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1211904000 exceeds 10% of free system memory.
+Epoch 3/10
+526/526 [==============================] - 6s 11ms/step - loss: 1.9299 - accuracy: 0.3660
+2023-02-08 08:51:37.327105: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1211904000 exceeds 10% of free system memory.
+Epoch 4/10
+526/526 [==============================] - 6s 11ms/step - loss: 1.7567 - accuracy: 0.4045
+Epoch 5/10
+526/526 [==============================] - 6s 11ms/step - loss: 1.6436 - accuracy: 0.4503
+Epoch 6/10
+526/526 [==============================] - 6s 11ms/step - loss: 1.5706 - accuracy: 0.4638
+Epoch 7/10
+526/526 [==============================] - 6s 11ms/step - loss: 1.5149 - accuracy: 0.4833
+Epoch 8/10
+526/526 [==============================] - 6s 11ms/step - loss: 1.4705 - accuracy: 0.4973
+Epoch 9/10
+526/526 [==============================] - 6s 11ms/step - loss: 1.3791 - accuracy: 0.5283
+Epoch 10/10
+526/526 [==============================] - 6s 11ms/step - loss: 1.2876 - accuracy: 0.5640
+132/132 [==============================] - 1s 5ms/step - loss: 1.0904 - accuracy: 0.6412
+last score: [1.0903981924057007, 0.64115971326828]
+Model: "text_cnn"
+
+
+cwe_min_count = 500
+infix+='_'+str(cwe_min_count)
+
+
+vec_len = 200
+min_count = 1
+window_len = 5
+dense_unit = 128
+wv_model_path  = '..//..//models//wv//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+cwe_count = 17  # 2020,2021_500
+
+Epoch 1/10
+2023-02-08 09:07:15.410842: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-02-08 09:07:15.452013: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2023-02-08 09:07:15.901463: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2023-02-08 09:07:15.905311: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2023-02-08 09:07:16.725233: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2023-02-08 09:07:16.759320: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2023-02-08 09:07:16.799825: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+526/526 [==============================] - 5s 6ms/step - loss: 3.2234 - accuracy: 0.3102
+2023-02-08 09:07:20.085941: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 807936000 exceeds 10% of free system memory.
+Epoch 2/10
+526/526 [==============================] - 3s 6ms/step - loss: 1.6105 - accuracy: 0.4474
+2023-02-08 09:07:23.424605: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 807936000 exceeds 10% of free system memory.
+Epoch 3/10
+526/526 [==============================] - 3s 6ms/step - loss: 1.4191 - accuracy: 0.5157
+2023-02-08 09:07:26.779140: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 807936000 exceeds 10% of free system memory.
+Epoch 4/10
+526/526 [==============================] - 3s 6ms/step - loss: 1.2666 - accuracy: 0.5656
+Epoch 5/10
+526/526 [==============================] - 3s 6ms/step - loss: 1.1883 - accuracy: 0.5882
+Epoch 6/10
+526/526 [==============================] - 3s 6ms/step - loss: 1.1493 - accuracy: 0.5989
+Epoch 7/10
+526/526 [==============================] - 3s 6ms/step - loss: 1.0754 - accuracy: 0.6268
+Epoch 8/10
+526/526 [==============================] - 3s 6ms/step - loss: 1.0202 - accuracy: 0.6480
+Epoch 9/10
+526/526 [==============================] - 3s 6ms/step - loss: 1.0004 - accuracy: 0.6554
+Epoch 10/10
+526/526 [==============================] - 3s 6ms/step - loss: 0.9439 - accuracy: 0.6677
+132/132 [==============================] - 0s 3ms/step - loss: 0.8565 - accuracy: 0.7346
+last score: [0.8564727902412415, 0.7345532178878784]
+Model: "text_cnn"
+
+cwe_min_count = 500
+infix+='_'+str(cwe_min_count)
+
+vec_len = 100
+min_count = 1
+window_len = 5
+dense_unit = 128
+wv_model_path  = '..//..//models//wv//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+cwe_count = 17  # 2020,2021_500
+
+526/526 [==============================] - 3s 3ms/step - loss: 2.5292 - accuracy: 0.3337
+Epoch 2/10
+526/526 [==============================] - 2s 3ms/step - loss: 1.4708 - accuracy: 0.4996
+Epoch 3/10
+526/526 [==============================] - 2s 3ms/step - loss: 1.2819 - accuracy: 0.5599
+Epoch 4/10
+526/526 [==============================] - 2s 3ms/step - loss: 1.1766 - accuracy: 0.5954
+Epoch 5/10
+526/526 [==============================] - 2s 3ms/step - loss: 1.0826 - accuracy: 0.6337
+Epoch 6/10
+526/526 [==============================] - 2s 3ms/step - loss: 1.0290 - accuracy: 0.6498
+Epoch 7/10
+526/526 [==============================] - 2s 3ms/step - loss: 0.9895 - accuracy: 0.6657
+Epoch 8/10
+526/526 [==============================] - 1s 3ms/step - loss: 0.9493 - accuracy: 0.6754
+Epoch 9/10
+526/526 [==============================] - 1s 3ms/step - loss: 0.9050 - accuracy: 0.6954
+Epoch 10/10
+526/526 [==============================] - 2s 3ms/step - loss: 0.8395 - accuracy: 0.7160
+132/132 [==============================] - 0s 2ms/step - loss: 0.8418 - accuracy: 0.7498
+last score: [0.8417914509773254, 0.7497623562812805]
+</wv------------------------------------------------------------------------------------------->
+
+<tfi-wv---------------------------------------------------------------------------------------->
+
+</tfi-wv----------------------------------------------------------------------------------------->
+
+<fast------------------------------------------------------------------------------------------->
+years = ['2020','2021']
+infix = ''
+infix = str(years[0])
+for i in range(1,len(years)):
+    infix += '-'+str(years[i])
+vec_len = 100
+min_count = 1
+window_len = 5
+dense_unit = 128
+fast_model_path  = '..//..//models//fasttext//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+cwe_count = 27  # 2020,2021
+
+        self.c1 = Conv2D(filters=12, kernel_size=(3, vec_len), padding='same')  # 卷积层
+        self.b1 = BatchNormalization()  # BN层
+        self.a1 = Activation('relu')  # 激活层
+        self.p1 = MaxPool2D(pool_size=(2, 2), strides=2, padding='same')  # 池化层
+        self.d1 = Dropout(0.2)  # dropout层
+
+        self.flatten = Flatten()
+        self.f1 = Dense(dense_unit, activation='relu')
+        self.d2 = Dropout(0.2)
+        self.f2 = Dense(cwe_count, activation='softmax')
+
+622/622 [==============================] - 5s 3ms/step - loss: 3.0541 - accuracy: 0.2423
+Epoch 2/10
+622/622 [==============================] - 2s 3ms/step - loss: 2.2190 - accuracy: 0.3388
+Epoch 3/10
+622/622 [==============================] - 2s 3ms/step - loss: 2.1174 - accuracy: 0.3543
+Epoch 4/10
+622/622 [==============================] - 2s 3ms/step - loss: 2.0563 - accuracy: 0.3641
+Epoch 5/10
+622/622 [==============================] - 2s 3ms/step - loss: 2.0205 - accuracy: 0.3712
+Epoch 6/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.9670 - accuracy: 0.3917
+Epoch 7/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.9114 - accuracy: 0.4033
+Epoch 8/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.8642 - accuracy: 0.4194
+Epoch 9/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.8340 - accuracy: 0.4253
+Epoch 10/10
+622/622 [==============================] - 2s 3ms/step - loss: 1.8265 - accuracy: 0.4224
+156/156 [==============================] - 0s 2ms/step - loss: 1.6760 - accuracy: 0.4982
+last score: [1.6759649515151978, 0.49819132685661316]
+
+</fast------------------------------------------------------------------------------------------->
