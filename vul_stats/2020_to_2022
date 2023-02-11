@@ -26,7 +26,6 @@ Epoch 1/10
 2023-02-08 09:50:40.036078: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
 2023-02-08 09:50:40.039021: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
 2023-02-08 09:50:40.876542: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
-
 2023-02-08 09:50:40.913407: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
 
 2023-02-08 09:50:40.949819: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.

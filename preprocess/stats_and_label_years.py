@@ -48,6 +48,16 @@ cwe_labels = list(df['labels'])
 print(len(cwe_labels))
 cwe_labels = set(cwe_labels)
 print(len(cwe_labels))
+
+decode_list = []
+for i in range(len((cwe_labels))):
+    decode_list.append(encoder.inverse_transform([i])[0])
+print(decode_list)
+decode_list_save_path = '..\\data\\decode_label\\nvdcve-1.1-'+infix+'_'+str(cwe_min_count)+'_decode_list'
+
+
 # label_save_path = '..\\data\\clean\\nvdcve-1.1-'+infix+'_'+str(cwe_min_count)+'_labels.csv'
 # df.to_csv(label_save_path,header = None,index=False)
+with open(decode_list_save_path, 'w') as f:
+    f.write(str(decode_list))
 

@@ -3,6 +3,7 @@ from gensim.models import word2vec  # 导入gensim包
 import pandas as pd
 import tensorflow as tf
 from preprocess.clean_text import clean_text
+import os
 
 # years = ['2020','2021']
 years = ['2020','2021','2022']
@@ -101,6 +102,11 @@ if __name__ == '__main__':
     score = model.evaluate(x_test, y_test)
     print('last score:', score)
     print(model.summary())
+
+    cnn_model_save_folder = '../../models/textcnn'
+    model.save(cnn_model_save_folder);
+
+
 
     # model.fit(x=x_train, y=y_train, epochs=10, verbose=2)
     # model.evaluate(x=x_test, y=y_test)
