@@ -11,7 +11,8 @@ from sklearn.preprocessing import LabelEncoder
 # year = '2020'
 # year = '2021'
 # years = ['2020','2021']
-years = ['2020','2021','2022']
+# years = ['2020','2021','2022']
+years = ['2018','2019','2020','2021','2022']
 infix = ''
 infix = str(years[0])
 for i in range(1,len(years)):
@@ -28,7 +29,8 @@ for cwe in cwe_set:
 
 cwe_dict_sort=sorted(cwe_dict.items(),key=operator.itemgetter(1),reverse=True)
 
-cwe_min_count = 700
+# cwe_min_count = 700
+cwe_min_count = 1300
 #获取前n个漏洞类型的数据
 df=dataset.copy()
 for cwe in cwe_set:
@@ -56,8 +58,8 @@ print(decode_list)
 decode_list_save_path = '..\\data\\decode_label\\nvdcve-1.1-'+infix+'_'+str(cwe_min_count)+'_decode_list'
 
 
-# label_save_path = '..\\data\\clean\\nvdcve-1.1-'+infix+'_'+str(cwe_min_count)+'_labels.csv'
-# df.to_csv(label_save_path,header = None,index=False)
+label_save_path = '..\\data\\clean\\nvdcve-1.1-'+infix+'_'+str(cwe_min_count)+'_labels.csv'
+df.to_csv(label_save_path,header = None,index=False)
 with open(decode_list_save_path, 'w') as f:
     f.write(str(decode_list))
 

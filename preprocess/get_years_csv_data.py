@@ -1,7 +1,8 @@
 from json_to_csv import json_to_csv_append
 
 # years = ['2020','2021']
-years = ['2020','2021','2022']
+# years = ['2020','2021','2022']
+years = ['2018','2019','2020','2021','2022']
 infix = str(years[0])
 for i in range(1,len(years)):
     infix += '-'+str(years[i])
