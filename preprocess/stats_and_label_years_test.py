@@ -13,8 +13,9 @@ from sklearn.preprocessing import LabelEncoder
 # years = ['2020','2021']
 # years = ['2020','2021','2022']
 # years = ['2017','2018','2019','2020','2021','2022']
-years = ['2013','2014','2015','2017','2018','2019','2020','2021','2022']
+years = ['2013','2014','2015','2016','2017','2018','2019','2020','2021','2022']
 infix = str(years[0])+"to"+str(years[len(years)-1])
+# path = '..\\data\\clean\\nvdcve-1.1-'+infix+'_new'+'.csv'
 path = '..\\data\\clean\\nvdcve-1.1-'+infix+'.csv'
 dataset=pd.read_csv(path,header = None)
 dataset.columns=['cve_id','cwe_id','descript']
@@ -32,6 +33,7 @@ cwe_min_count = 2000
 df=dataset.copy()
 for cwe in cwe_set:
     if cwe_dict[cwe] < cwe_min_count or cwe=='NVD-CWE-Other':
+    # if cwe_dict[cwe] < cwe_min_count:
         df = df[~df['cwe_id'].isin([cwe])]
 # 标记
 infix+='_no'
@@ -59,6 +61,6 @@ decode_list_save_path = '..\\data\\decode_label\\nvdcve-1.1-'+infix+'_'+str(cwe_
 
 label_save_path = '..\\data\\clean\\nvdcve-1.1-'+infix+'_'+str(cwe_min_count)+'_labels.csv'
 df.to_csv(label_save_path,header = None,index=False)
-# with open(decode_list_save_path, 'w') as f:
-#     f.write(str(decode_list))
+with open(decode_list_save_path, 'w') as f:
+    f.write(str(decode_list))
 

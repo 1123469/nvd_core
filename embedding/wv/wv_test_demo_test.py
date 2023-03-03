@@ -8,7 +8,7 @@ from preprocess.clean_text import clean_text
 
 # years = ['2020','2021']
 # years = ['2020','2021','2022']
-years = ['2013','2014','2015','2017','2018','2019','2020','2021','2022']
+years = ['2013','2014','2015','2016','2017','2018','2019','2020','2021','2022']
 infix = ''
 infix = str(years[0])+"to"+str(years[len(years)-1])
 infix+='_no'
@@ -36,7 +36,8 @@ n=30
 # cwe_count = 18  # 2020,2021,2022_700
 # cwe_count = 17  # 2018,2019，2020,2021,2022_1300
 # cwe_count = 15
-cwe_count = 14
+# cwe_count = 14
+cwe_count = 13
 
 def get_label_one_hot(list):
     values = np.array(list)
