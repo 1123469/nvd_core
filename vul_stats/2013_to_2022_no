@@ -9,8 +9,6 @@ E:\软件开发实践\毕设项目\NVDProject\nvd_core\preprocess
 ['CWE-119', 'CWE-125', 'CWE-20', 'CWE-200', 'CWE-22', 'CWE-264', 'CWE-287', 'CWE-352', 'CWE-416', 'CWE-78', 'CWE-787', 'CWE-79', 'CWE-89']
 
 
-
-
 1735/1735 [==============================] - 104s 57ms/step - loss: 0.8317 - accuracy: 0.7201
 2023-03-03 16:41:53.685192: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1332096000 exceeds 10% of free system memory.
 Epoch 2/10
