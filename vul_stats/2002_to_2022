@@ -187,6 +187,167 @@ Epoch 10/10
 last score: [0.4008321166038513, 0.8844165205955505]
 Model: "sequential"
 
+cwe_min_count = 2500
+infix+='_'+str(cwe_min_count)
+vec_len = 100
+min_count = 1
+window_len = 5
+dense_unit = 128
+fast_model_path  = '..//..//models//fasttext//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+cwe_count = 14
+
+2331/2331 [==============================] - 132s 54ms/step - loss: 0.9270 - accuracy: 0.6844
+2023-03-05 11:33:41.549591: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1789488000 exceeds 10% of free system memory.
+Epoch 2/10
+2331/2331 [==============================] - 128s 55ms/step - loss: 0.4791 - accuracy: 0.8398
+2023-03-05 11:35:50.724551: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1789488000 exceeds 10% of free system memory.
+Epoch 3/10
+2331/2331 [==============================] - 136s 58ms/step - loss: 0.4213 - accuracy: 0.8589
+Epoch 4/10
+2331/2331 [==============================] - 362s 155ms/step - loss: 0.3725 - accuracy: 0.8767
+Epoch 5/10
+2331/2331 [==============================] - 322s 138ms/step - loss: 0.3245 - accuracy: 0.8928
+Epoch 6/10
+2331/2331 [==============================] - 335s 144ms/step - loss: 0.2777 - accuracy: 0.9105
+Epoch 7/10
+2331/2331 [==============================] - 347s 149ms/step - loss: 0.2397 - accuracy: 0.9214
+Epoch 8/10
+2331/2331 [==============================] - 128s 55ms/step - loss: 0.2068 - accuracy: 0.9316
+Epoch 9/10
+2331/2331 [==============================] - 127s 55ms/step - loss: 0.1841 - accuracy: 0.9388
+Epoch 10/10
+2331/2331 [==============================] - 128s 55ms/step - loss: 0.1596 - accuracy: 0.9483
+583/583 [==============================] - 5s 8ms/step - loss: 0.6355 - accuracy: 0.8457
+last score: [0.6354802846908569, 0.8457164168357849]
+Model: "sequential"
+
+
+cwe_min_count = 2500
+infix+='_'+str(cwe_min_count)
+vec_len = 100
+min_count = 1
+window_len = 5
+dense_unit = 128
+fast_model_path  = '..//..//models//fasttext//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+cwe_count = 14
+
+Epoch 1/10
+2023-03-05 14:10:25.221180: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-03-05 14:10:25.678321: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2023-03-05 14:10:26.996682: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2023-03-05 14:10:27.022034: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2023-03-05 14:10:29.862270: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2023-03-05 14:10:29.919365: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2023-03-05 14:10:30.107083: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2331/2331 [==============================] - 134s 55ms/step - loss: 0.8986 - accuracy: 0.6971
+2023-03-05 14:12:38.444236: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3578976000 exceeds 10% of free system memory.
+Epoch 2/10
+2331/2331 [==============================] - 127s 55ms/step - loss: 0.4574 - accuracy: 0.8496
+2023-03-05 14:14:46.309895: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3578976000 exceeds 10% of free system memory.
+Epoch 3/10
+2331/2331 [==============================] - 128s 55ms/step - loss: 0.3915 - accuracy: 0.8698
+Epoch 4/10
+2331/2331 [==============================] - 127s 54ms/step - loss: 0.3336 - accuracy: 0.8899
+Epoch 5/10
+2331/2331 [==============================] - 127s 54ms/step - loss: 0.2775 - accuracy: 0.9088
+Epoch 6/10
+2331/2331 [==============================] - 128s 55ms/step - loss: 0.2271 - accuracy: 0.9255
+Epoch 7/10
+2331/2331 [==============================] - 127s 55ms/step - loss: 0.1900 - accuracy: 0.9380
+Epoch 8/10
+2331/2331 [==============================] - 127s 55ms/step - loss: 0.1629 - accuracy: 0.9479
+Epoch 9/10
+2331/2331 [==============================] - 126s 54ms/step - loss: 0.1390 - accuracy: 0.9545
+Epoch 10/10
+2331/2331 [==============================] - 128s 55ms/step - loss: 0.1248 - accuracy: 0.9598
+583/583 [==============================] - 5s 8ms/step - loss: 0.7348 - accuracy: 0.8424
+last score: [0.7347633838653564, 0.8424440622329712]
+
+
+cwe_min_count = 2500
+infix+='_'+str(cwe_min_count)
+vec_len = 300
+min_count = 1
+window_len = 5
+dense_unit = 128
+fast_model_path  = '..//..//models//fasttext//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+cwe_count = 14
+2331/2331 [==============================] - 203s 84ms/step - loss: 0.8769 - accuracy: 0.7060
+Epoch 2/10
+2331/2331 [==============================] - 341s 146ms/step - loss: 0.4449 - accuracy: 0.8536
+Epoch 3/10
+2331/2331 [==============================] - 318s 136ms/step - loss: 0.3691 - accuracy: 0.8777
+Epoch 4/10
+2331/2331 [==============================] - 132s 57ms/step - loss: 0.3008 - accuracy: 0.9007
+Epoch 5/10
+2331/2331 [==============================] - 132s 57ms/step - loss: 0.2363 - accuracy: 0.9240
+Epoch 6/10
+2331/2331 [==============================] - 132s 57ms/step - loss: 0.1892 - accuracy: 0.9391
+Epoch 7/10
+2331/2331 [==============================] - 132s 57ms/step - loss: 0.1560 - accuracy: 0.9503
+Epoch 8/10
+2331/2331 [==============================] - 133s 57ms/step - loss: 0.1329 - accuracy: 0.9568
+Epoch 9/10
+2331/2331 [==============================] - 132s 57ms/step - loss: 0.1177 - accuracy: 0.9625
+Epoch 10/10
+2331/2331 [==============================] - 133s 57ms/step - loss: 0.1055 - accuracy: 0.9667
+583/583 [==============================] - 6s 9ms/step - loss: 0.7611 - accuracy: 0.8435
+last score: [0.7610759735107422, 0.8434633612632751]
+Model: "sequential"
+
+years = ['2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021','2022']
+infix = ''
+infix = str(years[0])+"to"+str(years[len(years)-1])
+# 标记
+infix+='_no'
+cwe_min_count = 3000
+infix+='_'+str(cwe_min_count)
+vec_len = 100
+# vec_len = 200
+# vec_len = 300
+min_count = 1
+window_len = 5
+dense_unit = 128
+fast_model_path  = '..//..//models//fasttext//'+infix+"_"+str(vec_len)+"_"+str(min_count)+"_"+str(window_len)+'.pkl'
+label_path = '..\\..\\data\\clean\\nvdcve-1.1-'+infix+'_labels.csv'
+n=30
+
+2128/2128 [==============================] - 332s 152ms/step - loss: 0.7622 - accuracy: 0.7320
+2023-03-05 19:26:42.674089: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1633656000 exceeds 10% of free system memory.
+Epoch 2/10
+2128/2128 [==============================] - 324s 152ms/step - loss: 0.3741 - accuracy: 0.8758
+2023-03-05 19:32:07.268616: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1633656000 exceeds 10% of free system memory.
+Epoch 3/10
+2128/2128 [==============================] - 323s 152ms/step - loss: 0.3209 - accuracy: 0.8937
+Epoch 4/10
+2128/2128 [==============================] - 320s 150ms/step - loss: 0.2787 - accuracy: 0.9078
+Epoch 5/10
+2128/2128 [==============================] - 309s 145ms/step - loss: 0.2423 - accuracy: 0.9207
+Epoch 6/10
+2128/2128 [==============================] - 318s 149ms/step - loss: 0.2049 - accuracy: 0.9340
+Epoch 7/10
+2128/2128 [==============================] - 322s 151ms/step - loss: 0.1745 - accuracy: 0.9439
+Epoch 8/10
+2128/2128 [==============================] - 203s 95ms/step - loss: 0.1479 - accuracy: 0.9529
+Epoch 9/10
+2128/2128 [==============================] - 126s 59ms/step - loss: 0.1274 - accuracy: 0.9598
+Epoch 10/10
+2128/2128 [==============================] - 220s 103ms/step - loss: 0.1160 - accuracy: 0.9616
+532/532 [==============================] - 10s 17ms/step - loss: 0.5404 - accuracy: 0.8853
+last score: [0.5403522849082947, 0.8852978944778442]
+Model: "sequential"
+
+
+
+
 
 
 
