@@ -45,36 +45,24 @@ if __name__ == '__main__':
     test_text = "A buffer overflow in the FTP list (ls) command in IIS allows remote attackers to conduct a denial of service and, in some cases, execute arbitrary commands."
     # test_text = sys.argv[1]
     sentence = clean_text(test_text)
-    # embedding_matrix = np.zeros((n, vec_len))
-    # padding_const = 1e-10
-    # embedding_matrix *= padding_const
-    # padding_line = np.ones(vec_len)
-    # padding_line *= padding_const
-    #
-    # length = len(sentence)
-    #
-    # range_num = n if length > n else length
-    # for i in range(range_num):
-    #     try:
-    #         embedding_matrix[i] = fast_model.wv[sentence[i]]
-    #     except KeyError:
-    #         continue
-    line = sentence
-    train_dataset = []
-    length = len(line)
-    if length > n:
-        line = line[:n]
-        word2vec_matrix = (fast_model.wv[line])
-        train_dataset.append(word2vec_matrix)
-    else:
-        word2vec_matrix = (fast_model.wv[line])
-        pad_length = n - length
-        pad_matrix = np.zeros([pad_length, vec_len]) + 1e-10
-        word2vec_matrix = np.concatenate([word2vec_matrix, pad_matrix], axis=0)
-        train_dataset.append(word2vec_matrix)
+    embedding_matrix = np.zeros((n, vec_len))
+    padding_const = 1e-10
+    embedding_matrix *= padding_const
+    padding_line = np.ones(vec_len)
+    padding_line *= padding_const
 
-    # train_dataset = [embedding_matrix]
-    # train_dataset = np.expand_dims(train_dataset, 3)
+    length = len(sentence)
+
+    range_num = n if length > n else length
+    for i in range(range_num):
+        try:
+            embedding_matrix[i] = fast_model.wv[sentence[i]]
+        except KeyError:
+            continue
+
+    line = sentence
+    train_dataset = [embedding_matrix]
+
     train_dataset = np.array(train_dataset)
     print(train_dataset.shape)
     predict_res = model.predict(train_dataset,False)
