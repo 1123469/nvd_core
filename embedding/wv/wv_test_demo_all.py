@@ -127,7 +127,7 @@ if __name__ == '__main__':
     print('last score:', score)
     print(model.summary())
     #
-    # cnn_model_save_folder = '../../models/textcnn'
+    # cnn_model_save_folder = '../../models/textcnnAll'
     # model.save(cnn_model_save_folder);
 
 

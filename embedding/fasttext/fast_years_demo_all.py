@@ -121,5 +121,7 @@ if __name__ == '__main__':
 
     # model.fit(x=x_train, y=y_train, epochs=10, verbose=2)
     # model.evaluate(x=x_test, y=y_test)
+    cnn_model_save_folder = '../../models/fasttextcnn'
+    model.save(cnn_model_save_folder);
 
 

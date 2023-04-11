@@ -1,5 +1,5 @@
 import tensorflow as tf
-from gensim.models import word2vec
+from gensim.models import word2vec, fasttext
 import numpy as np
 import re
 from nltk.stem import WordNetLemmatizer
@@ -17,14 +17,14 @@ def clean_text(text):
     return words
 
 if __name__ == '__main__':
-    years = ['2020', '2021', '2022']
+    years = ['2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014',
+             '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
     infix = ''
-    infix = str(years[0])
-    for i in range(1, len(years)):
-        infix += '-' + str(years[i])
+    infix = str(years[0]) + "to" + str(years[len(years) - 1])
+    infix += '_no'
 
-    # cwe_min_count = 500
-    cwe_min_count = 700
+    cwe_min_count = 3000
+
     infix += '_' + str(cwe_min_count)
 
     vec_len = 100
@@ -32,55 +32,57 @@ if __name__ == '__main__':
     # vec_len = 300
     min_count = 1
     window_len = 5
-    dense_unit = 128
+    # dense_unit = 128
+    dense_unit = 256
+
     n = 30
-    # wv_model_path = '..//..//models//wv//' + infix + "_" + str(vec_len) + "_" + str(min_count) + "_" + str(
-    #     window_len) + '.pkl'
-    wv_model_path = 'F:\\PycharmProjects\\nvd_reload\\models\wv\\2020-2021-2022_700_100_1_5.pkl'
-    wv_model = word2vec.Word2Vec.load(wv_model_path)
-    years = ['2020', '2021', '2022']
-    infix = ''
-    infix = str(years[0])
-
-    for i in range(1, len(years)):
-        infix += '-' + str(years[i])
-
-    load_path = 'F:\\PycharmProjects\\nvd_reload\models\\textcnn'
+    cwe_count = 11
+    fast_model_path = 'E:\\软件开发实践\\毕设项目\\NVDProject\\nvd_core\\models\\fasttext\\2002to2022_no_3000_100_1_5.pkl'
+    fast_model = fasttext.FastText.load(fast_model_path)
+    load_path = 'E:\\软件开发实践\\毕设项目\\NVDProject\\nvd_core\\models\\fasttextcnn'
     model = tf.keras.models.load_model(load_path)
-    # test_text = "A cross site scripting vulnerability exists when Microsoft Dynamics 365 (on-premises) does not properly sanitize a specially crafted web request to an affected Dynamics server, aka 'Microsoft Dynamics 365 (On-Premise) Cross Site Scripting Vulnerability'."
-    # 2015 right
-    # test_text = "Cross-site scripting (XSS) vulnerability in the Policy Admin Tool in Apache Ranger before 0.5.0 allows remote attackers to inject arbitrary web script or HTML via the HTTP User-Agent header."
-    #CVE-2015-0137  CWE-20 wrong
-
-    # test_text = "IBM PowerVC Standard 1.2.0.x before 1.2.0.4 and 1.2.1.x before 1.2.2 validates Hardware Management Console (HMC) certificates only during the pre-login stage, which allows man-in-the-middle attackers to spoof devices via a crafted"
-    # 2020  CWE-20 预测正确
     test_text = "In the settings app, there is a possible app crash due to improper input validation. This could lead to local denial of service of the Settings app with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-136005061"
-    test_text = sys.argv[1]
+    test_text = "A buffer overflow in the FTP list (ls) command in IIS allows remote attackers to conduct a denial of service and, in some cases, execute arbitrary commands."
+    # test_text = sys.argv[1]
     sentence = clean_text(test_text)
+    # embedding_matrix = np.zeros((n, vec_len))
+    # padding_const = 1e-10
+    # embedding_matrix *= padding_const
+    # padding_line = np.ones(vec_len)
+    # padding_line *= padding_const
+    #
+    # length = len(sentence)
+    #
+    # range_num = n if length > n else length
+    # for i in range(range_num):
+    #     try:
+    #         embedding_matrix[i] = fast_model.wv[sentence[i]]
+    #     except KeyError:
+    #         continue
+    line = sentence
+    train_dataset = []
+    length = len(line)
+    if length > n:
+        line = line[:n]
+        word2vec_matrix = (fast_model.wv[line])
+        train_dataset.append(word2vec_matrix)
+    else:
+        word2vec_matrix = (fast_model.wv[line])
+        pad_length = n - length
+        pad_matrix = np.zeros([pad_length, vec_len]) + 1e-10
+        word2vec_matrix = np.concatenate([word2vec_matrix, pad_matrix], axis=0)
+        train_dataset.append(word2vec_matrix)
 
-    embedding_matrix = np.zeros((n, vec_len))
-    padding_const = 1e-10
-    embedding_matrix *= padding_const
-    padding_line = np.ones(vec_len)
-    padding_line *= padding_const
-
-    length = len(sentence)
-
-    range_num = n if length > n else length
-    for i in range(range_num):
-        try:
-            embedding_matrix[i] = wv_model.wv[sentence[i]]
-        except KeyError:
-            continue
-
-    train_dataset = [embedding_matrix]
-    train_dataset = np.expand_dims(train_dataset, 3)
-    # print(train_dataset.shape)
+    # train_dataset = [embedding_matrix]
+    # train_dataset = np.expand_dims(train_dataset, 3)
+    train_dataset = np.array(train_dataset)
+    print(train_dataset.shape)
     predict_res = model.predict(train_dataset,False)
     predict_label = int(tf.argmax(predict_res,axis=1))
     # print("预测的结果是")
     # print(predict_label)
-    decode_list_save_path = 'F:\\PycharmProjects\\nvd_reload\data\decode_label\\nvdcve-1.1-2020-2021-2022_700_decode_list'
+    # decode_list_save_path = 'F:\\PycharmProjects\\nvd_reload\data\decode_label\\nvdcve-1.1-2020-2021-2022_700_decode_list'
+    decode_list_save_path = 'E:\\软件开发实践\\毕设项目\\NVDProject\\nvd_core\\data\\decode_label\\nvdcve-1.1-2002to2022_no_3000_decode_list'
     with open(decode_list_save_path,'r') as f:
         decode_list = eval(f.read())
     print(decode_list[predict_label])
