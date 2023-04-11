@@ -23,9 +23,9 @@ cwe_min_count = 3000
 
 infix+='_'+str(cwe_min_count)
 
-# vec_len = 100
+vec_len = 100
 # vec_len = 200
-vec_len = 300
+# vec_len = 300
 min_count = 1
 window_len = 5
 # dense_unit = 128

@@ -29,8 +29,8 @@ for cwe in cwe_set:
 cwe_dict_sort=sorted(cwe_dict.items(),key=operator.itemgetter(1),reverse=True)
 
 # cwe_min_count = 2000
-cwe_min_count = 2500
-# cwe_min_count = 3000
+# cwe_min_count = 2500
+cwe_min_count = 3000
 #获取前n个漏洞类型的数据
 df=dataset.copy()
 for cwe in cwe_set:

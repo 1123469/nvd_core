@@ -14,6 +14,6 @@ infix+='_no'
 cwe_min_count = 3000
 infix+='_'+str(cwe_min_count)
 if __name__ == '__main__':
-    # train_wv(infix,100,1,5)
+    train_wv(infix,100,1,5)
     # train_wv(infix, 200, 1, 5)
-    train_wv(infix, 300, 1, 5)
+    # train_wv(infix, 300, 1, 5)

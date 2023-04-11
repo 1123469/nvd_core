@@ -3,6 +3,9 @@ from gensim.models import fasttext  # 导入gensim包
 import pandas as pd
 import tensorflow as tf
 from preprocess.clean_text import clean_text
+import keras_metrics as km
+from tensorflow.keras.metrics import Precision,Recall
+Metrics = ['accuracy',Precision(),Recall(),km.f1_score()]
 
 years = ['2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021','2022']
 infix = ''
@@ -31,6 +34,7 @@ n=30
 # cwe_count = 27  # 2020,2021
 # cwe_count = 14
 cwe_count = 11
+pl_size = n
 
 
 def get_label_one_hot(list):
@@ -98,6 +102,7 @@ if __name__ == '__main__':
     model = Sequential()
     model.add(Conv1D(256, 3, padding='same', strides=1, activation='relu'))
     model.add(MaxPool1D(pool_size=2))
+    # model.add(MaxPool1D(pool_size=n))
     model.add(GRU(256, return_sequences=True))
     model.add(GRU(256, dropout=0.5, recurrent_dropout=0.1))
     model.add(Dense(cwe_count, activation="softmax"))

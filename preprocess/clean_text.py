@@ -7,6 +7,7 @@ def clean_text(text):
     words = text.lower().split()
     lemmatizer = WordNetLemmatizer()
     lem_words = [lemmatizer.lemmatize(w, pos='n') for w in words]
+    lem_words = [lemmatizer.lemmatize(w, pos='v') for w in lem_words]
     stopwords = {}.fromkeys([line.rstrip() for line in open('F:\\PycharmProjects\\NVDproject\\nvdcve\\stopwords.txt')])
     eng_stopwords = set(stopwords)
     words = [w for w in lem_words if w not in eng_stopwords]

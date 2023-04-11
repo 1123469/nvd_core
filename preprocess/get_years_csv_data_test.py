@@ -3,7 +3,8 @@ from json_to_csv_test import json_to_csv_append
 
 # years = ['2020','2021']
 # years = ['2020','2021','2022']
-years = ['2013','2014','2015','2016','2017','2018','2019','2020','2021','2022']
+# years = ['2013','2014','2015','2016','2017','2018','2019','2020','2021','2022']
+years = ['2016']
 infix = str(years[0])+"to"+str(years[len(years)-1])
 path = '..\\data\\clean\\nvdcve-1.1-'+infix+'.csv'
 if __name__ == '__main__':
